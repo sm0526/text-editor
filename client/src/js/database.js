@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// TODO: Add logic to a method that accepts some content and adds it to the database will be able to use get and just need to change req
 export const putDb = async (id, content) => {
   console.log('PUT request to update jateDB');
   const jateDb = await openDB('jate', 1);
